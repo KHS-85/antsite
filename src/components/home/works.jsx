@@ -29,8 +29,8 @@ const Works = () => {
                 <Button onClick={showModal}> <i className="fas fa-play"></i> </Button>
                 </div>
 
-                <Modal title="Ant Design" footer={null} visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
-                <iframe title="Ant Design" width="100%" height="350" src="https://www.youtube.com/embed/pTYFVQ7w550" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <Modal title="Ant Design" footer={null} visible={isModalVisible} onOk={handleOk} onCancel={handleCancel} destroyOnClose = {true}>
+                <iframe title="Ant Design" width="100%" height="350" src="https://www.youtube.com/embed/Ke90Tje7VS0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </Modal>
 
             </div>

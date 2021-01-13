@@ -38,12 +38,7 @@ const Header = () => {
                     <Button type="primary" onClick={showDrawer}>
                         <i className="fas fa-ellipsis-v"></i>
                     </Button>
-                    <Drawer
-                        placement="right"
-                        closable={false}
-                        onClose={onClose}
-                        visible={visible}
-                    >
+                    <Drawer placement="right" closable={false} onClose={onClose} visible={visible}>
                         <Anchor targetOffset="65">
                             <Link href="#hero" title="Home" />
                             <Link href="#about" title="About" />
